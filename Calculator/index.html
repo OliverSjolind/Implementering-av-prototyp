@@ -5,17 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Calculator</title>
+
 </head>
 
 <body>
-    <input id="input1" type="number">
-    <input id="input2" type="number">
-    <button id="addition">+</button>
-    <button id="subtract">-</button>
-    <button id="multiplication">*</button>
-    <button id="division">/</button>
-    <input id="answer" disabled>
+    <div class="container">
+        <div class="calculator">
+            <input class="" id="input1" type="number">
+
+            <input id="arithmetic-display" class="arithmetic-display" size="1" disabled>
+
+            <input id="input2" type="number">
+            <strong>=</strong>
+            <input id="answer" disabled>
+
+
+            <div class="arithmetics">
+                <button id="addition">+</button>
+                <button id="subtract">-</button>
+                <button id="multiplication">*</button>
+                <button id="division">/</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="script.js"></script>
 </body>
