@@ -46,6 +46,8 @@ let subtract = document.getElementById('subtract')
 let multiplication = document.getElementById('multiplication')
 let division = document.getElementById('division')
 
+let arithmeticDisplay = document.getElementById('arithmetic-display')
+
 let select = document.getElementById('arithmetics')
 
 let calculate = document.getElementById('calculate')
@@ -56,6 +58,15 @@ function calcFunction() {
     if (select.value == 'addition') {
         answer.value = parseFloat(input1.value) + parseFloat(input2.value)
         arithmeticDisplay.value = '+'
-    } else if 7
+    } else if (select.value == 'subtraction') {
+        answer.value = parseFloat(input1.value) - parseFloat(input2.value)
+        arithmeticDisplay.value = '-'
+    } else if (select.value == 'multiplication') {
+        answer.value = parseFloat(input1.value) * parseFloat(input2.value)
+        arithmeticDisplay.value = '*'
+    } else if (select.value == 'division') {
+        answer.value = parseFloat(input1.value) / parseFloat(input2.value)
+        arithmeticDisplay.value = '/'
+    }
 
 }
