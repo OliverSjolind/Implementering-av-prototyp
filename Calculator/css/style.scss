@@ -18,7 +18,7 @@ input {
 button {
     background-color: transparent;
     padding: 5px;
-    width: 30px;
+    width: 120px;
     border: white 5px solid;
     font-size: 20px;
     border-radius: 10px;
@@ -46,6 +46,12 @@ button {
         .arithmetics {
             text-align: center;
             margin-top: 10px;
+            background: transparent;
+
+            option {
+                background: transparent;
+                color: #141E30;
+            }
 
             :hover {
                 background-color: rgba(20, 30, 48, 0.479);
@@ -53,10 +59,6 @@ button {
 
             :active {
                 background-color: rgb(20, 30, 48);
-            }
-
-            button {
-                width: 40px;
             }
         }
     }

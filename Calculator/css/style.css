@@ -19,7 +19,7 @@ input {
 button {
   background-color: transparent;
   padding: 5px;
-  width: 30px;
+  width: 120px;
   border: white 5px solid;
   font-size: 20px;
   border-radius: 10px;
@@ -56,6 +56,12 @@ button {
 .container .calculator .arithmetics {
   text-align: center;
   margin-top: 10px;
+  background: transparent;
+}
+
+.container .calculator .arithmetics option {
+  background: transparent;
+  color: #141E30;
 }
 
 .container .calculator .arithmetics :hover {
@@ -64,9 +70,5 @@ button {
 
 .container .calculator .arithmetics :active {
   background-color: #141e30;
-}
-
-.container .calculator .arithmetics button {
-  width: 40px;
 }
 /*# sourceMappingURL=style.css.map */
