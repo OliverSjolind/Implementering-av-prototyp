@@ -11,16 +11,18 @@
 
 input {
   background-color: transparent;
-  border: white 2px solid;
+  border: white 5px solid;
   padding: 5px;
+  border-radius: 10px;
 }
 
 button {
   background-color: transparent;
   padding: 5px;
   width: 30px;
-  border: white 2px solid;
+  border: white 5px solid;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .container {
