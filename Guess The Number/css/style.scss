@@ -2,12 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
-.try-again {
-    display: none;
-}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f85032;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e73827, #f85032);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.game-form {
-    display: none;
+    input {
+        background-color: transparent;
+        border: white 5px solid;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    h1,
+    h3 {
+        margin: 10px;
+    }
+
+    .try-again {
+        display: none;
+    }
+
+    .game-form {
+        display: none;
+    }
 }
