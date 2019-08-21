@@ -5,6 +5,7 @@
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
+  margin: 5px 0;
 }
 
 .container {
@@ -23,12 +24,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #f85032;
+  background: #6441A5;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#e73827), to(#f85032));
-  background: linear-gradient(to right, #e73827, #f85032);
+  background: -webkit-gradient(linear, left top, right top, from(#2a0845), to(#6441A5));
+  background: linear-gradient(to right, #2a0845, #6441A5);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container button {
+  background-color: transparent;
+  border: white 5px solid;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .container input {
@@ -38,13 +46,14 @@
   border-radius: 10px;
 }
 
-.container h1,
-.container h3 {
-  margin: 10px;
+.container input:disabled,
+.container button:disabled {
+  background-color: #5f5f5f;
 }
 
 .container .try-again {
   display: none;
+  padding: 10px 50px;
 }
 
 .container .game-form {

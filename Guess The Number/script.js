@@ -28,9 +28,7 @@ function guessFunction(event) {
         guessButton.disabled = true;
         tryAgain.style.display = 'block';
         guessText.innerHTML = 'Good ' + userName.value + '! It took you ' + count + ' tries to guess the correct number.'
-    } else if (userGuess.value > 20) {
-        guessText.innerHTML = 'The number must be between 0-20'
-    } else if (userGuess.value < 0) {
+    } else if (userGuess.value > 20 || userGuess.value < 0) {
         guessText.innerHTML = 'The number must be between 0-20'
     } else if (userGuess.value > answer) {
         guessText.innerHTML = 'The number is lower!'
@@ -56,7 +54,9 @@ function playAgainFunction() {
 }
 
 function startFunction(event) {
-    event.preventDefault();
-    nameForm.style.display = 'none';
-    gameForm.style.display = 'block';
+    if (userName.value == '') {} else {
+        event.preventDefault();
+        nameForm.style.display = 'none';
+        gameForm.style.display = 'block';
+    }
 }
