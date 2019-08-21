@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    margin: 5px 0;
 }
 
 .container {
@@ -19,7 +18,12 @@
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2a0845, #6441A5);
+
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    * {
+        margin: 5px 0;
+    }
 
 
     button {
