@@ -33,6 +33,14 @@
         border-radius: 10px;
     }
 
+    button:hover {
+        background-color: #3f2068;
+    }
+
+    button:active {
+        background-color: #2e1649;
+    }
+
     input {
         background-color: transparent;
         border: white 5px solid;
@@ -48,6 +56,8 @@
     .try-again {
         display: none;
         padding: 10px 50px;
+        font-weight: 700;
+        font-size: 1.5em;
     }
 
     .game-form {

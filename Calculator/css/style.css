@@ -53,10 +53,15 @@ button {
   width: 40px;
 }
 
+.container .calculator .test {
+  text-align: center;
+}
+
 .container .calculator .arithmetics {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
   background: transparent;
+  border: 5px solid #ffffff;
 }
 
 .container .calculator .arithmetics option {

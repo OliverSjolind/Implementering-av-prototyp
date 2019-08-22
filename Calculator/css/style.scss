@@ -43,10 +43,15 @@ button {
             width: 40px;
         }
 
+        .test {
+            text-align: center;
+        }
+
         .arithmetics {
             text-align: center;
-            margin-top: 10px;
+            margin-top: 15px;
             background: transparent;
+            border: 5px solid #ffffff;
 
             option {
                 background: transparent;
