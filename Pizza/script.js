@@ -5,13 +5,16 @@ let pizzaTopping2 = document.getElementById('pizzaTopping2')
 let mediumPizza = document.getElementById('medium')
 let largePizza = document.getElementById('large')
 let priceDisplay = document.getElementById('priceDisplay')
-let pepperoni = document.getElementById('pepperoni')
-let ham = document.getElementById('ham')
-let mozzarella = document.getElementById('mozzarella')
-let mushroom = document.getElementById('mushroom')
-let bacon = document.getElementById('bacon')
+let toppings = [
+    pepperoni = document.getElementById('pepperoni'),
+    ham = document.getElementById('ham'),
+    mozzarella = document.getElementById('mozzarella'),
+    mushroom = document.getElementById('mushroom'),
+    bacon = document.getElementById('bacon')
+]
 
-let toppings = document.getElementById('toppings')
+toppings.disabled = true;
+
 let price = 0
 
 pizzaForm.addEventListener('change', pizzaPrice)
