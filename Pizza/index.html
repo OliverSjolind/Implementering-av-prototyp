@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Pizza Time</title>
+    <title>Pizza Shop</title>
 </head>
 
 <body>
@@ -16,20 +16,27 @@
             <label for="medium">Medium</label>
             <input value="medium" type="radio" name="pizzaSize" id="medium">
             <label for="large">Large</label>
-            <input value="large" type="radio" name="pizzaSize" id="Large">
+            <input value="large" type="radio" name="pizzaSize" id="large">
 
             <h3>Toppings:</h3>
-            <label for="pepperoni">Pepperoni</label>
-            <input value="pepperoni" type="checkbox" name="toppings" id="pepperoni">
+            <div id="toppings">
+                <label for="pepperoni">Pepperoni 1,99€</label>
+                <input value="pepperoni" type="checkbox" name="toppings" id="pepperoni">
 
-            <label for="mozzarella">Mozzarella</label>
-            <input value="mozzarella" type="checkbox" name="toppings" id="mozzarella">
+                <label for="ham">Ham 1,99€</label>
+                <input value="ham" type="checkbox" name="toppings" id="ham">
 
-            <label for="mushroom">Mushroom</label>
-            <input value="mushroom" type="checkbox" name="toppings" id="mushroom">
+                <label for="mozzarella">Mozzarella 99c</label>
+                <input value="mozzarella" type="checkbox" name="toppings" id="mozzarella">
 
-            <label for="bacon">Bacon</label>
-            <input value="bacon" type="checkbox" name="toppings" id="bacon">
+                <label for="mushroom">Mushroom 1.5€</label>
+                <input value="mushroom" type="checkbox" name="toppings" id="mushroom">
+
+                <label for="bacon">Bacon 1,99€</label>
+                <input value="bacon" type="checkbox" name="toppings" id="bacon">
+            </div>
+
+
             <p id="priceDisplay">Price: </p>
 
 
