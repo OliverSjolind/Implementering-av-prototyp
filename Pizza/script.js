@@ -5,6 +5,7 @@ let pizzaTopping2 = document.getElementById('pizzaTopping2')
 let mediumPizza = document.getElementById('medium')
 let largePizza = document.getElementById('large')
 let priceDisplay = document.getElementById('priceDisplay')
+
 let toppings = [
     pepperoni = document.getElementById('pepperoni'),
     ham = document.getElementById('ham'),
@@ -12,9 +13,6 @@ let toppings = [
     mushroom = document.getElementById('mushroom'),
     bacon = document.getElementById('bacon')
 ]
-
-toppings.disabled = true;
-
 let price = 0
 
 pizzaForm.addEventListener('change', pizzaPrice)
@@ -25,7 +23,6 @@ function pizzaPrice() {
     price = 0
     if (mediumPizza.checked === true) {
         price += 7
-        pepperoni.disabled = false;
     }
     if (largePizza.checked === true) {
         price += 9
